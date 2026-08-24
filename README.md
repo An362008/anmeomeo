@@ -711,77 +711,8 @@ function submitQuiz(){
 </script>
 </body>
 </html>
-* hiện đáp án đúng sai khi làm xong câu hỏi , hiện nền xanh ở câu hỏi nếu làm đúng và nền đỏ ở câu làm sai , hiện đáp án đúng sau khi hoàn thành bài tập 
-
-" kí hiệu phân số và các dấu dược thể hiện như sách giáo khoa , 
-
-" các câu không lặp lại nhau mà soạn ngẫu nhiên từng đợt
-
-" phần biểu thức trong phần tính toán tự nhập biểu thức chứ không cố định một biểu thức
-
-" thêm mục hướng dẫn ở các phép tính toán 
-
-" tối ưu hóa cho cả điện thoại lẫn máy tính vẫn sử dụng được 
-
-" tạo hoạt họa và các hiệu ứng khi click vào 
-
-" trong phần bài tập có giới hạn thời gian , thêm vào các câu đúng sai , toàn bộ câu hỏi được tính điểm như hình thức thi toán hiện nay 
-
-" 
-
-Đã cập nhật và hoàn thiện ứng dụng web học tập Toán Đại Số 7 theo toàn bộ các yêu cầu của bạn!
-
-Biểu tượng HTML
-index
- HTML 
-Đang mở
-Các tính năng và cải tiến đã tích hợp trong phiên bản này:
-Hiển thị đáp án & Phản hồi trực quan:
-
-Nền màu xanh lá (#f0fdf4) khi câu trả lời đúng.
-
-Nền màu đỏ nhạt (#fef2f2) khi trả lời sai.
-
-Hiển thị rõ ràng đáp án đúng chuẩn kèm lời giải thích chi tiết ngay bên dưới mỗi câu sau khi bấm Nộp bài.
-
-Ký hiệu phân số và phép toán chuẩn SGK:
-
-Tích hợp MathJax rendering các biểu thức phân số  
-b
-a
-​
- , lũy thừa x 
-n
- , tỉ lệ thức, căn thức... đẹp mắt, đúng chuẩn giao diện sách giáo khoa Toán 7 mới.
-
-Ngẫu nhiên hóa câu hỏi (không lặp lại):
-
-Thuật toán tráo đổi ngẫu nhiên Fisher-Yates Shuffle tự động chọn lọc câu hỏi khác nhau qua từng đợt luyện đề.
-
-Tự nhập biểu thức đại số linh hoạt:
-
-Cho phép người dùng tự nhập bất kỳ biểu thức đại số nào (Ví dụ: 2*x^2 + 3*x - 5 hoặc (x+1)/(x-2)) và tính giá trị tại x tùy chọn.
-
-Mục Hướng dẫn chi tiết ở các công cụ tính toán:
-
-Mỗi công cụ tính (Phân số, Lũy thừa, Tỉ lệ thức, Đại lượng tỉ lệ, Biểu thức, Thống kê...) đều bổ sung hộp hướng dẫn (Guide box) trực quan.
-
-Tối ưu hóa đa nền tảng (Mobile & Desktop):
-
-Thiết kế chuẩn Responsive bằng CSS Flexbox, Grid, và typography theo quy chuẩn viewport điện thoại lẫn máy tính.
-
-Hoạt họa & Hiệu ứng tương tác:
-
-Đổi màu nền Gradient chuyển động mềm mại, hiệu ứng hover/click nhẹ nhàng trên các nút bấm và thẻ chuyên đề.
-
-Đồng hồ đếm ngược & Câu hỏi Đúng/Sai:
-
-Đích thân trải nghiệm bài thi có đếm ngược thời gian (10 phút), tích hợp dạng câu hỏi Đúng/Sai cùng câu hỏi Trắc nghiệm 4 lựa chọn, tự động quy đổi ra thang điểm 10 chuẩn cấu trúc thi hiện nay.
 
 
-
-
-Gemini là một AI và có thể mắc sai sót.
 
 <!DOCTYPE html>
 <html lang="vi">
@@ -1560,7 +1491,7 @@ footer {
 </main>
 
 <footer>
-  🎓 <b>Ứng Dụng Học & Luyện Thi Toán Đại Số 7</b> • Thiết Kế Trực Quan, Chuẩn SGK Mới
+  
 </footer>
 
 <script>
@@ -1901,4 +1832,4 @@ window.onload = function() {
 </html>
 
 
-1
+
